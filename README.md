@@ -41,3 +41,46 @@ Where are marketing efforts underperforming, and why?
 
 By addressing these questions, the project aims to provide business leaders with the clarity needed to refine marketing strategies, maximize ROI, and make smarter, data-informed decisions.
 
+## Data Source
+The dataset used for this project was sourced from Maven Analytics, a platform that provides real-world business datasets designed for analytics and BI projects.
+
+This particular dataset simulates a global marketing campaign for a retail company operating in multiple countries. It includes over 2,000 customer records, covering a wide range of variables such as:
+- Demographics: Age, education, marital status, and income
+- Product purchases: Spending across various product categories
+- Sales channels: Web, catalog, in-store, and deals purchases
+- Campaign interaction: Response to five different marketing campaigns
+- Geographic presence: Country-level customer and income distribution
+- Customer service: Complaint history and engagement metrics
+
+## Tools Used
+ - Microsoft Power BI (Desktop)
+
+## Data Analysis Process
+**1. Data Cleaning using Power Query**
+
+**2. Included some interesting DAX functions**
+
+DAX Measures for calculating KPIs (AVerage Income, Total customers, Total Response etc.)
+```DAX
+Average Income = SUM(marketing_data[ Income ]) / COUNTROWS(marketing_data)
+Total Customer = DISTINCTCOUNT(marketing_data[ID])
+Total Response = SUM(marketing_data[Response])
+```
+**3. Feature Engineering:** Grouped continuous variables like income and age into categories as part of feature engineering to support better demographic segmentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
