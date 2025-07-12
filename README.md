@@ -159,7 +159,7 @@ The insights generated enable data-driven decision-making across marketing, sale
 Overall, the dashboard serves as a powerful business intelligence tool, offering actionable insights that can enhance campaign ROI, boost customer satisfaction, and support sustainable growth across markets.
 
 ## Author
-[Benard Gabriel] - Data Analyst 
+**[Benard Gabriel]** - Data Analyst 
 
 
 
