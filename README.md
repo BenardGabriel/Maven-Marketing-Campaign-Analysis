@@ -63,6 +63,13 @@ Total Response = SUM(marketing_data[Response])
 ```
 **3. Feature Engineering:** Grouped continuous variables like income and age into categories as part of feature engineering to support better demographic segmentation.
 
+<img width="1313" height="741" alt="Screenshot 2025-07-08 174739" src="https://github.com/user-attachments/assets/c4b2e421-3f00-4d4c-9069-f21a3bf8fdea" />
+
+<img width="1312" height="742" alt="Screenshot 2025-07-08 174811" src="https://github.com/user-attachments/assets/2c7a2254-1002-4995-89e7-9c7973cb88fa" />
+
+<img width="1317" height="743" alt="Screenshot 2025-07-08 174923" src="https://github.com/user-attachments/assets/e8c7fa6c-ff7a-4ab9-88b2-d956322e50ba" />
+
+
 ## Insight Deep Dive
 
 This dashboard presents a comprehensive analysis of a multi-channel retail business with physical store, catalog, and online presence. The analysis evaluates marketing campaign performance, customer engagement, product sales, and income distribution across various countries and sales channels. Insights are grouped by business functions to support decision-making
